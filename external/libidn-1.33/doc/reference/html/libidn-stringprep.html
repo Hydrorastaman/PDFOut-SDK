@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GNU Libidn API Reference Manual: stringprep</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="GNU Libidn API Reference Manual">
+<link rel="up" href="intro.html" title="GNU Libidn API Reference Manual">
+<link rel="prev" href="libidn-idna.html" title="idna">
+<link rel="next" href="libidn-punycode.html" title="punycode">
+<meta name="generator" content="GTK-Doc V1.21 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#libidn-stringprep.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="intro.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="libidn-idna.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="libidn-punycode.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="libidn-stringprep"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libidn-stringprep.top_of_page"></a>stringprep</span></h2>
+<p>stringprep</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="libidn-stringprep.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="libidn-idna.html#IDNAPI:CAPS" title="IDNAPI">IDNAPI</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="libidn-stringprep.html#STRINGPREP-VERSION:CAPS" title="STRINGPREP_VERSION">STRINGPREP_VERSION</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="libidn-stringprep.html#Stringprep-rc" title="enum Stringprep_rc">Stringprep_rc</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="libidn-stringprep.html#Stringprep-profile-flags" title="enum Stringprep_profile_flags">Stringprep_profile_flags</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="libidn-stringprep.html#Stringprep-profile-steps" title="enum Stringprep_profile_steps">Stringprep_profile_steps</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="libidn-stringprep.html#STRINGPREP-MAX-MAP-CHARS:CAPS" title="STRINGPREP_MAX_MAP_CHARS">STRINGPREP_MAX_MAP_CHARS</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libidn-stringprep.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="libidn-stringprep.functions_details"></a><h2>Functions</h2>
+</div>
+<div class="refsect1">
+<a name="libidn-stringprep.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="IDNAPI:CAPS"></a><h3>IDNAPI</h3>
+<pre class="programlisting">#define             IDNAPI</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="STRINGPREP-VERSION:CAPS"></a><h3>STRINGPREP_VERSION</h3>
+<pre class="programlisting"># define STRINGPREP_VERSION "1.33"
+</pre>
+<p>String defined via CPP denoting the header file version number.
+Used together with <code class="function">stringprep_check_version()</code> to verify header file
+and run-time library consistency.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="Stringprep-rc"></a><h3>enum Stringprep_rc</h3>
+<p>Enumerated return codes of <code class="function">stringprep()</code>, <code class="function">stringprep_profile()</code>
+functions (and macros using those functions).  The value 0 is
+guaranteed to always correspond to success.</p>
+<div class="refsect3">
+<a name="id-1.2.11.6.4.4"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-OK:CAPS"></a>STRINGPREP_OK</p></td>
+<td class="enum_member_description">
+<p>Successful operation.  This value is guaranteed to
+  always be zero, the remaining ones are only guaranteed to hold
+  non-zero values, for logical comparison purposes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-CONTAINS-UNASSIGNED:CAPS"></a>STRINGPREP_CONTAINS_UNASSIGNED</p></td>
+<td class="enum_member_description">
+<p>String contain unassigned Unicode
+  code points, which is forbidden by the profile.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-CONTAINS-PROHIBITED:CAPS"></a>STRINGPREP_CONTAINS_PROHIBITED</p></td>
+<td class="enum_member_description">
+<p>String contain code points
+  prohibited by the profile.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-BIDI-BOTH-L-AND-RAL:CAPS"></a>STRINGPREP_BIDI_BOTH_L_AND_RAL</p></td>
+<td class="enum_member_description">
+<p>String contain code points with
+  conflicting bidirection category.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-BIDI-LEADTRAIL-NOT-RAL:CAPS"></a>STRINGPREP_BIDI_LEADTRAIL_NOT_RAL</p></td>
+<td class="enum_member_description">
+<p>Leading and trailing character
+  in string not of proper bidirectional category.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-BIDI-CONTAINS-PROHIBITED:CAPS"></a>STRINGPREP_BIDI_CONTAINS_PROHIBITED</p></td>
+<td class="enum_member_description">
+<p>Contains prohibited code
+  points detected by bidirectional code.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-TOO-SMALL-BUFFER:CAPS"></a>STRINGPREP_TOO_SMALL_BUFFER</p></td>
+<td class="enum_member_description">
+<p>Buffer handed to function was too
+  small.  This usually indicate a problem in the calling
+  application.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-PROFILE-ERROR:CAPS"></a>STRINGPREP_PROFILE_ERROR</p></td>
+<td class="enum_member_description">
+<p>The stringprep profile was inconsistent.
+  This usually indicate an internal error in the library.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-FLAG-ERROR:CAPS"></a>STRINGPREP_FLAG_ERROR</p></td>
+<td class="enum_member_description">
+<p>The supplied flag conflicted with profile.
+  This usually indicate a problem in the calling application.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-UNKNOWN-PROFILE:CAPS"></a>STRINGPREP_UNKNOWN_PROFILE</p></td>
+<td class="enum_member_description">
+<p>The supplied profile name was not
+  known to the library.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-ICONV-ERROR:CAPS"></a>STRINGPREP_ICONV_ERROR</p></td>
+<td class="enum_member_description">
+<p>Could not convert string in locale encoding.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-NFKC-FAILED:CAPS"></a>STRINGPREP_NFKC_FAILED</p></td>
+<td class="enum_member_description">
+<p>The Unicode NFKC operation failed.  This
+  usually indicate an internal error in the library.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-MALLOC-ERROR:CAPS"></a>STRINGPREP_MALLOC_ERROR</p></td>
+<td class="enum_member_description">
+<p>The <code class="function">malloc()</code> was out of memory.  This is
+  usually a fatal error.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="Stringprep-profile-flags"></a><h3>enum Stringprep_profile_flags</h3>
+<p>Stringprep profile flags.</p>
+<div class="refsect3">
+<a name="id-1.2.11.6.5.4"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-NO-NFKC:CAPS"></a>STRINGPREP_NO_NFKC</p></td>
+<td class="enum_member_description">
+<p>Disable the NFKC normalization, as well as
+  selecting the non-NFKC case folding tables.  Usually the profile
+  specifies BIDI and NFKC settings, and applications should not
+  override it unless in special situations.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-NO-BIDI:CAPS"></a>STRINGPREP_NO_BIDI</p></td>
+<td class="enum_member_description">
+<p>Disable the BIDI step.  Usually the profile
+  specifies BIDI and NFKC settings, and applications should not
+  override it unless in special situations.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-NO-UNASSIGNED:CAPS"></a>STRINGPREP_NO_UNASSIGNED</p></td>
+<td class="enum_member_description">
+<p>Make the library return with an error if
+  string contains unassigned characters according to profile.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="Stringprep-profile-steps"></a><h3>enum Stringprep_profile_steps</h3>
+<p>Various steps in the stringprep algorithm.  You really want to
+study the source code to understand this one.  Only useful if you
+want to add another profile.</p>
+<div class="refsect3">
+<a name="id-1.2.11.6.6.4"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-NFKC:CAPS"></a>STRINGPREP_NFKC</p></td>
+<td class="enum_member_description">
+<p>The NFKC step.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-BIDI:CAPS"></a>STRINGPREP_BIDI</p></td>
+<td class="enum_member_description">
+<p>The BIDI step.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-MAP-TABLE:CAPS"></a>STRINGPREP_MAP_TABLE</p></td>
+<td class="enum_member_description">
+<p>The MAP step.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-UNASSIGNED-TABLE:CAPS"></a>STRINGPREP_UNASSIGNED_TABLE</p></td>
+<td class="enum_member_description">
+<p>The Unassigned step.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-PROHIBIT-TABLE:CAPS"></a>STRINGPREP_PROHIBIT_TABLE</p></td>
+<td class="enum_member_description">
+<p>The Prohibited step.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-BIDI-PROHIBIT-TABLE:CAPS"></a>STRINGPREP_BIDI_PROHIBIT_TABLE</p></td>
+<td class="enum_member_description">
+<p>The BIDI-Prohibited step.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-BIDI-RAL-TABLE:CAPS"></a>STRINGPREP_BIDI_RAL_TABLE</p></td>
+<td class="enum_member_description">
+<p>The BIDI-RAL step.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="STRINGPREP-BIDI-L-TABLE:CAPS"></a>STRINGPREP_BIDI_L_TABLE</p></td>
+<td class="enum_member_description">
+<p>The BIDI-L step.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="STRINGPREP-MAX-MAP-CHARS:CAPS"></a><h3>STRINGPREP_MAX_MAP_CHARS</h3>
+<pre class="programlisting"># define STRINGPREP_MAX_MAP_CHARS 4
+</pre>
+<p>Maximum number of code points that can replace a single code point,
+during stringprep mapping.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21</div>
+</body>
+</html>

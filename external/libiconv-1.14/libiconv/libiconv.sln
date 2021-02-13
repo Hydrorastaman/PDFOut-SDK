@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libiconv", "libiconv.vcxproj", "{021C645A-826C-4309-B0F2-62FC2C3FE4AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		lib_debug_v120_xp_md|Win32 = lib_debug_v120_xp_md|Win32
+		lib_debug_v120_xp_md|x64 = lib_debug_v120_xp_md|x64
+		Release_v120_xp_md|Win32 = Release_v120_xp_md|Win32
+		Release_v120_xp_md|x64 = Release_v120_xp_md|x64
+		Release_v120_xp|Win32 = Release_v120_xp|Win32
+		Release_v120_xp|x64 = Release_v120_xp|x64
+		Release_v140_xp|Win32 = Release_v140_xp|Win32
+		Release_v140_xp|x64 = Release_v140_xp|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Debug|Win32.Build.0 = Debug|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Debug|x64.ActiveCfg = Debug|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Debug|x64.Build.0 = Debug|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.lib_debug_v120_xp_md|Win32.ActiveCfg = lib_debug_v120_xp_md|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.lib_debug_v120_xp_md|Win32.Build.0 = lib_debug_v120_xp_md|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.lib_debug_v120_xp_md|x64.ActiveCfg = lib_debug_v120_xp_md|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.lib_debug_v120_xp_md|x64.Build.0 = lib_debug_v120_xp_md|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v120_xp_md|Win32.ActiveCfg = Release_v120_xp_md|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v120_xp_md|Win32.Build.0 = Release_v120_xp_md|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v120_xp_md|x64.ActiveCfg = Release_v120_xp_md|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v120_xp_md|x64.Build.0 = Release_v120_xp_md|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v120_xp|Win32.ActiveCfg = Release_v120_xp|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v120_xp|Win32.Build.0 = Release_v120_xp|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v120_xp|x64.ActiveCfg = Release_v120_xp|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v120_xp|x64.Build.0 = Release_v120_xp|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v140_xp|Win32.ActiveCfg = Release_v140_xp|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v140_xp|Win32.Build.0 = Release_v140_xp|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v140_xp|x64.ActiveCfg = Release_v140_xp|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release_v140_xp|x64.Build.0 = Release_v140_xp|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release|Win32.ActiveCfg = Release|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release|Win32.Build.0 = Release|Win32
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release|x64.ActiveCfg = Release|x64
+		{021C645A-826C-4309-B0F2-62FC2C3FE4AE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

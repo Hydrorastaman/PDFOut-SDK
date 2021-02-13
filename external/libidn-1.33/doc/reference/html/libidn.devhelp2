@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="GNU Libidn API Reference Manual" link="index.html" author="" name="libidn" version="2" language="c">
+  <chapters>
+    <sub name="GNU Libidn API Reference Manual" link="intro.html">
+      <sub name="idna" link="libidn-idna.html"/>
+      <sub name="stringprep" link="libidn-stringprep.html"/>
+      <sub name="punycode" link="libidn-punycode.html"/>
+      <sub name="pr29" link="libidn-pr29.html"/>
+      <sub name="tld" link="libidn-tld.html"/>
+      <sub name="idn-free" link="libidn-idn-free.html"/>
+    </sub>
+    <sub name="API Index" link="api-index-full.html"/>
+  </chapters>
+  <functions>
+    <keyword type="function" name="idna_strerror ()" link="libidn-idna.html#idna-strerror"/>
+    <keyword type="function" name="idna_to_ascii_4i ()" link="libidn-idna.html#idna-to-ascii-4i"/>
+    <keyword type="function" name="idna_to_unicode_44i ()" link="libidn-idna.html#idna-to-unicode-44i"/>
+    <keyword type="function" name="idna_to_ascii_4z ()" link="libidn-idna.html#idna-to-ascii-4z"/>
+    <keyword type="function" name="idna_to_ascii_8z ()" link="libidn-idna.html#idna-to-ascii-8z"/>
+    <keyword type="function" name="idna_to_ascii_lz ()" link="libidn-idna.html#idna-to-ascii-lz"/>
+    <keyword type="function" name="idna_to_unicode_4z4z ()" link="libidn-idna.html#idna-to-unicode-4z4z"/>
+    <keyword type="function" name="idna_to_unicode_8z4z ()" link="libidn-idna.html#idna-to-unicode-8z4z"/>
+    <keyword type="function" name="idna_to_unicode_8z8z ()" link="libidn-idna.html#idna-to-unicode-8z8z"/>
+    <keyword type="function" name="idna_to_unicode_8zlz ()" link="libidn-idna.html#idna-to-unicode-8zlz"/>
+    <keyword type="function" name="idna_to_unicode_lzlz ()" link="libidn-idna.html#idna-to-unicode-lzlz"/>
+    <keyword type="macro" name="IDNAPI" link="libidn-idna.html#IDNAPI:CAPS"/>
+    <keyword type="enum" name="enum Idna_rc" link="libidn-idna.html#Idna-rc"/>
+    <keyword type="enum" name="enum Idna_flags" link="libidn-idna.html#Idna-flags"/>
+    <keyword type="macro" name="IDNA_ACE_PREFIX" link="libidn-idna.html#IDNA-ACE-PREFIX:CAPS"/>
+    <keyword type="macro" name="IDNAPI" link="libidn-stringprep.html#IDNAPI:CAPS"/>
+    <keyword type="macro" name="STRINGPREP_VERSION" link="libidn-stringprep.html#STRINGPREP-VERSION:CAPS"/>
+    <keyword type="enum" name="enum Stringprep_rc" link="libidn-stringprep.html#Stringprep-rc"/>
+    <keyword type="enum" name="enum Stringprep_profile_flags" link="libidn-stringprep.html#Stringprep-profile-flags"/>
+    <keyword type="enum" name="enum Stringprep_profile_steps" link="libidn-stringprep.html#Stringprep-profile-steps"/>
+    <keyword type="macro" name="STRINGPREP_MAX_MAP_CHARS" link="libidn-stringprep.html#STRINGPREP-MAX-MAP-CHARS:CAPS"/>
+    <keyword type="function" name="punycode_strerror ()" link="libidn-punycode.html#punycode-strerror"/>
+    <keyword type="function" name="punycode_encode ()" link="libidn-punycode.html#punycode-encode"/>
+    <keyword type="function" name="punycode_decode ()" link="libidn-punycode.html#punycode-decode"/>
+    <keyword type="macro" name="IDNAPI" link="libidn-punycode.html#IDNAPI:CAPS"/>
+    <keyword type="enum" name="enum Punycode_status" link="libidn-punycode.html#Punycode-status"/>
+    <keyword type="typedef" name="punycode_uint" link="libidn-punycode.html#punycode-uint"/>
+    <keyword type="function" name="pr29_strerror ()" link="libidn-pr29.html#pr29-strerror"/>
+    <keyword type="function" name="pr29_4 ()" link="libidn-pr29.html#pr29-4"/>
+    <keyword type="function" name="pr29_4z ()" link="libidn-pr29.html#pr29-4z"/>
+    <keyword type="function" name="pr29_8z ()" link="libidn-pr29.html#pr29-8z"/>
+    <keyword type="macro" name="IDNAPI" link="libidn-pr29.html#IDNAPI:CAPS"/>
+    <keyword type="enum" name="enum Pr29_rc" link="libidn-pr29.html#Pr29-rc"/>
+    <keyword type="macro" name="IDNAPI" link="libidn-tld.html#IDNAPI:CAPS"/>
+    <keyword type="macro" name="IDNAPI" link="libidn-idn-free.html#IDNAPI:CAPS"/>
+  </functions>
+</book>

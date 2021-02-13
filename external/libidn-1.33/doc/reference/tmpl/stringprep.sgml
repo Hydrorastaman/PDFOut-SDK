@@ -1,0 +1,87 @@
+<!-- ##### SECTION Title ##### -->
+stringprep
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO IDNAPI ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO STRINGPREP_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### ENUM Stringprep_rc ##### -->
+<para>
+
+</para>
+
+@STRINGPREP_OK: 
+@STRINGPREP_CONTAINS_UNASSIGNED: 
+@STRINGPREP_CONTAINS_PROHIBITED: 
+@STRINGPREP_BIDI_BOTH_L_AND_RAL: 
+@STRINGPREP_BIDI_LEADTRAIL_NOT_RAL: 
+@STRINGPREP_BIDI_CONTAINS_PROHIBITED: 
+@STRINGPREP_TOO_SMALL_BUFFER: 
+@STRINGPREP_PROFILE_ERROR: 
+@STRINGPREP_FLAG_ERROR: 
+@STRINGPREP_UNKNOWN_PROFILE: 
+@STRINGPREP_ICONV_ERROR: 
+@STRINGPREP_NFKC_FAILED: 
+@STRINGPREP_MALLOC_ERROR: 
+
+<!-- ##### ENUM Stringprep_profile_flags ##### -->
+<para>
+
+</para>
+
+@STRINGPREP_NO_NFKC: 
+@STRINGPREP_NO_BIDI: 
+@STRINGPREP_NO_UNASSIGNED: 
+
+<!-- ##### ENUM Stringprep_profile_steps ##### -->
+<para>
+
+</para>
+
+@STRINGPREP_NFKC: 
+@STRINGPREP_BIDI: 
+@STRINGPREP_MAP_TABLE: 
+@STRINGPREP_UNASSIGNED_TABLE: 
+@STRINGPREP_PROHIBIT_TABLE: 
+@STRINGPREP_BIDI_PROHIBIT_TABLE: 
+@STRINGPREP_BIDI_RAL_TABLE: 
+@STRINGPREP_BIDI_L_TABLE: 
+
+<!-- ##### MACRO STRINGPREP_MAX_MAP_CHARS ##### -->
+<para>
+
+</para>
+
+
+
