@@ -1,0 +1,1491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\kernel">
+      <UniqueIdentifier>{d104ebff-3e12-4690-80e4-e6a1b14bd6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel">
+      <UniqueIdentifier>{5e17de07-0131-4926-9227-a064e70c8f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\document">
+      <UniqueIdentifier>{6fa12374-48b5-4b54-ba5b-3a7d58c95764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\font">
+      <UniqueIdentifier>{2b3080cd-ad9f-4011-a1db-220589b30fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\graphics">
+      <UniqueIdentifier>{fb409e36-c418-4031-a149-5674f36fc82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\graphics\halftone">
+      <UniqueIdentifier>{c047375d-3b76-4858-8297-b5d4e6f8f7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\object">
+      <UniqueIdentifier>{6f9a2661-6cab-443c-b545-b04f88107365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\document">
+      <UniqueIdentifier>{8d2bf763-53f5-4ad8-9dfa-778bf6709a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\font">
+      <UniqueIdentifier>{a7da3378-7d8f-422b-9946-f1b330efe838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\graphics">
+      <UniqueIdentifier>{febcecaa-9bd1-48b6-9dfa-bdef2d0db2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\graphics\halftone">
+      <UniqueIdentifier>{6dc6becc-4fb4-4148-8b77-b71a138f6cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\object">
+      <UniqueIdentifier>{1c87387b-017d-4b57-9749-5a70a1761dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\graphics\color">
+      <UniqueIdentifier>{33411b0c-ccd3-4298-893a-0a20271615c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\graphics\color">
+      <UniqueIdentifier>{28431a75-7b5f-4b5d-aef6-863bea184cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\font\TrueType">
+      <UniqueIdentifier>{63b6e572-aad1-4808-89e6-fd19ca01a72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\font\TrueType">
+      <UniqueIdentifier>{e48bd0b1-b0a7-424f-a3e4-7d8e105b3ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{07e4b661-94eb-40fa-a541-645e1115c550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source">
+      <UniqueIdentifier>{e95511eb-8c32-4c7e-9ee6-9ea7de17e215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\filter">
+      <UniqueIdentifier>{2b2f1d65-2352-49d4-995c-a6ec6558f9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\filter">
+      <UniqueIdentifier>{2ef4742b-44dc-49a9-8787-8aa6e86ce2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\graphics\image">
+      <UniqueIdentifier>{aa7bf554-9cfb-4a7c-bc92-e904b247eb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\graphics\image">
+      <UniqueIdentifier>{9379f13f-a92c-44f3-8e48-66ddb0f0716f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\interactive">
+      <UniqueIdentifier>{14194d7a-47be-4353-bc23-b366cc790885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\interactive">
+      <UniqueIdentifier>{09a17f38-d43e-481e-8d41-37d95cc5341c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\interactive\annotation">
+      <UniqueIdentifier>{898256a3-f18e-4d16-af99-f86cb50455aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\interactive\acroform">
+      <UniqueIdentifier>{985d342f-eb08-4e5a-a455-687819fa10ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\interactive\annotation">
+      <UniqueIdentifier>{ed4a5791-1d83-4882-b021-db4b7980a06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\interactive\acroform">
+      <UniqueIdentifier>{75b3503e-4125-4001-a077-ed8b2f349703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\interactive\action">
+      <UniqueIdentifier>{3ab3ce12-508b-438a-a7de-1e158b0eeee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\interactive\action">
+      <UniqueIdentifier>{90171523-92fb-4e41-9dc6-e0fca0555f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\controls">
+      <UniqueIdentifier>{48ffde0b-41a7-4ce5-b4ab-d8303370428e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\controls">
+      <UniqueIdentifier>{13c2101f-714c-497a-a62d-221c075f0f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\actions">
+      <UniqueIdentifier>{e347c6bb-9453-4502-a408-f21d1779c152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\actions">
+      <UniqueIdentifier>{bf711e3e-3e42-4b06-969c-a8633cc2f3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\annotations">
+      <UniqueIdentifier>{9885e83d-87df-49f9-a00b-a5f2c04f0beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\annotations">
+      <UniqueIdentifier>{afb40f74-ab39-495f-a6a7-6625cebd0d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\encryption">
+      <UniqueIdentifier>{ea36e6d4-c98e-4134-b932-a2f8537cb8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\encryption">
+      <UniqueIdentifier>{ef12c1de-799d-4111-a40f-fef52ac39755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\xobject">
+      <UniqueIdentifier>{efbc908d-5be8-42de-ad8a-df4d8e814222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\xobject">
+      <UniqueIdentifier>{98925bbe-ba16-468a-94cb-3d1a419317b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\api">
+      <UniqueIdentifier>{c8368db3-6eeb-47de-8672-6824ca50ff87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\api\stream">
+      <UniqueIdentifier>{086b44d9-af51-4fe4-b329-250f0899208c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\font\CID">
+      <UniqueIdentifier>{6a280315-bc30-45b2-930f-984eea7f2d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\font\CID">
+      <UniqueIdentifier>{380c7686-9ae5-4b35-9d2c-9a6d4fa4d39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel\font\CFF">
+      <UniqueIdentifier>{6396712d-6260-4509-9048-a18b5d8558ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kernel\font\CFF">
+      <UniqueIdentifier>{e8109fef-52f9-477f-b11e-aaee1bedabed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\unicode">
+      <UniqueIdentifier>{46f46b10-5efb-477c-bbdb-cc95790dd91f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\kernel\source\document\DocumentCatalogDictionary.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentCrossReferenceTable.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentFileTrailer.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentHeader.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentInformationDictionary.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentNameDictionary.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentOutlineDictionary.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentOutlineItemDictionary.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentPage.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentPages.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentResourceDictionary.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CIDSystemInfoDictionary.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CMapStream.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\FontCIDDictionary.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\FontDescriptorDictionary.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\FontType0Dictionary.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\FontType1Dictionary.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\FontType3Dictionary.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType1Dictionary.cpp">
+      <Filter>Source Files\kernel\graphics\halftone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType5Dictionary.cpp">
+      <Filter>Source Files\kernel\graphics\halftone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType6Dictionary.cpp">
+      <Filter>Source Files\kernel\graphics\halftone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType10Dictionary.cpp">
+      <Filter>Source Files\kernel\graphics\halftone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType16Dictionary.cpp">
+      <Filter>Source Files\kernel\graphics\halftone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\ObjectDictionary.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\ObjectFunctionType0.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\ObjectFunctionType2.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\ObjectFunctionType3.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\ObjectFunctionType4.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\ObjectStream.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\ObjectUTF16BEString.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\Indirectable.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\ResourceUid.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\FontEncodingDictionary.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\color\ColorICCStream.cpp">
+      <Filter>Source Files\kernel\graphics\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\SoftMaskDictionary.cpp">
+      <Filter>Source Files\kernel\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\GraphicsStateParameterDictionary.cpp">
+      <Filter>Source Files\kernel\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\FontTrueType.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\Table.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableHead.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableHhea.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableMaxp.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableOS2.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableHmtx.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableName.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableCmap.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\Cmap.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat0.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat2.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat4.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableLoca.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableGlyf.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\SimpleGlyph.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\CompoundGlyph.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\Glyph.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Index.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableDttf.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat6.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TablePost.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\FontTrueTypeDictionary.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\FontFileStream.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\ResourceManager.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UString.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PaperSize.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\ToUnicodeCMapStream.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentMetadataStream.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\filter\FilterAscii85.cpp">
+      <Filter>Source Files\kernel\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\filter\FilterAsciiHex.cpp">
+      <Filter>Source Files\kernel\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\filter\FilterDeflate.cpp">
+      <Filter>Source Files\kernel\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\filter\FilterBase.cpp">
+      <Filter>Source Files\kernel\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\AdobeGlyphList.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\MacintoshGlyphList.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\ToUnicode.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\ImageDictionary.cpp">
+      <Filter>Source Files\kernel\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\AlternateImageDictionary.cpp">
+      <Filter>Source Files\kernel\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\image\ImageEncoder.cpp">
+      <Filter>Source Files\kernel\graphics\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\image\ImageJpegEncoder.cpp">
+      <Filter>Source Files\kernel\graphics\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\image\ImageTiffEncoder.cpp">
+      <Filter>Source Files\kernel\graphics\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\CCITFaxDecodeDictionary.cpp">
+      <Filter>Source Files\kernel\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\TransformationMatrix.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\color\ColorSpaceCIEBased.cpp">
+      <Filter>Source Files\kernel\graphics\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\color\ColorSpaceDevice.cpp">
+      <Filter>Source Files\kernel\graphics\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Color.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\AnnotationBorderEffectDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\AnnotationBorderStyleDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\AnnotationDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\AppearanceDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\CircleAnnotationDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\FreeTextAnnotationDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\LineAnnotationDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\LinkAnnotationDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\SquareAnnotationDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\TextAnnotationDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormFieldDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormButtonDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormTextDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormChoiceDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureLockDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureSVDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureSVCertDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureSVMDPDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureSVTimeStampDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\acroform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\WidgetAnnotationDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\annotation\WidgetAnnotationMKDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\ActionDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\AnnotationTriggerDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\PageTriggerDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\AcroFormFieldTriggerDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\DocumentCatalogTriggerDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\SubmitFormActionDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\ResetFormActionDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\ImportDataActionDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\JavaScriptActionDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\ObjectFileSpecification.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\EmbeddedFileStream.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\MacOSInformationDictionary.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\interactive\action\GoToActionDictionary.cpp">
+      <Filter>Source Files\kernel\interactive\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FormXObject.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\controls\Control.cpp">
+      <Filter>Source Files\source\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\controls\PushButton.cpp">
+      <Filter>Source Files\source\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\object\UTF16BEString.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\include\object\ObjectUTF16BETextString.cpp">
+      <Filter>Source Files\kernel\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\actions\Action.cpp">
+      <Filter>Source Files\source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\actions\UriAction.cpp">
+      <Filter>Source Files\source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\annotations\Annotation.cpp">
+      <Filter>Source Files\source\annotations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\annotations\TextAnnotation.cpp">
+      <Filter>Source Files\source\annotations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\annotations\LinkAnnotation.cpp">
+      <Filter>Source Files\source\annotations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Destination.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\annotations\MarkupAnnotation.cpp">
+      <Filter>Source Files\source\annotations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\EncryptionDictionary.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\StandardEncryptionDictionary.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\PublicKeyEncryptionDictionary.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\SecurityHandler.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\StandardSecurityHandler.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\filter\FilterAes.cpp">
+      <Filter>Source Files\kernel\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\filter\FilterRc4.cpp">
+      <Filter>Source Files\kernel\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\Encoder.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\EncoderRc4.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\EncoderAes2.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\EncoderAes3.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\Serializable.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\CryptFilterDictionary.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\encryption\CryptFilter.cpp">
+      <Filter>Source Files\kernel\encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\FontTrueTypeCollection.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\image\InlineImageStream.cpp">
+      <Filter>Source Files\kernel\graphics\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\image\ImageIndexedEncoder.cpp">
+      <Filter>Source Files\kernel\graphics\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\color\ColorSpaceIndexed.cpp">
+      <Filter>Source Files\kernel\graphics\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\xobject\GroupXObjectDictionary.cpp">
+      <Filter>Source Files\kernel\xobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\xobject\TransparencyGroupDictionary.cpp">
+      <Filter>Source Files\kernel\xobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\xobject\FormXObjectStream.cpp">
+      <Filter>Source Files\kernel\xobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\xobject\FormXObjectType1Stream.cpp">
+      <Filter>Source Files\kernel\xobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\image\SoftMaskImage.cpp">
+      <Filter>Source Files\kernel\graphics\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\ExtGraphicsState.cpp">
+      <Filter>Source Files\kernel\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\GraphicsState.cpp">
+      <Filter>Source Files\kernel\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\graphics\Operators.cpp">
+      <Filter>Source Files\kernel\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CMapName.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\ToString.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\EncodingToString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ContentStreamImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ContentStream.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ColorSpaceImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ColorSpace.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ExtGStateImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ExtGState.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\DocumentImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Document.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ImageImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Image.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FunctionImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Function.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\HalftoneImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Halftone.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PageImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FontImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Font.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FontCollectionImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AcroFormImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PageTreeImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\OutlineImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\InternalTools.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Tools.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat12.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CID\FontCIDType2.cpp">
+      <Filter>Source Files\kernel\font\CID</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CID\FontCIDType0.cpp">
+      <Filter>Source Files\kernel\font\CID</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableKern.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CompositeFont.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\SimpleFont.cpp">
+      <Filter>Source Files\kernel\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XMPDocument.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\XMPDocumentImpl.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\DateTime.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\TrueType\TableCff.cpp">
+      <Filter>Source Files\kernel\font\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CFF\FontCFF.cpp">
+      <Filter>Source Files\kernel\font\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CFF\StandardSID.cpp">
+      <Filter>Source Files\kernel\font\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CFF\Operator.cpp">
+      <Filter>Source Files\kernel\font\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CFF\CffDictionary.cpp">
+      <Filter>Source Files\kernel\font\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CFF\CffIndex.cpp">
+      <Filter>Source Files\kernel\font\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\font\CFF\TopDictionary.cpp">
+      <Filter>Source Files\kernel\font\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\source\document\DocumentMarkInformationDictionary.cpp">
+      <Filter>Source Files\kernel\document</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Encoding.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\unicode\UBA63_ExplicitEmbeddingLevels.cpp">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\unicode\UBA63_IdentifyIsolatingRunSequences.cpp">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\unicode\UBA63_ParagraphEmbeddingLevel.cpp">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\unicode\UnicodeData.cpp">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\kernel\include\document\DocumentCatalogDictionary.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentCrossReferenceTable.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentFileTrailer.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentHeader.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentInformationDictionary.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentNameDictionary.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentOutlineDictionary.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentPage.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentPages.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentResourceDictionary.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CIDSystemInfoDictionary.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CMapStream.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\FontCIDDictionary.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\FontDescriptorDictionary.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\FontType0Dictionary.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\FontType1Dictionary.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\FontType3Dictionary.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType1Dictionary.h">
+      <Filter>Header Files\kernel\graphics\halftone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType5Dictionary.h">
+      <Filter>Header Files\kernel\graphics\halftone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType6Dictionary.h">
+      <Filter>Header Files\kernel\graphics\halftone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType10Dictionary.h">
+      <Filter>Header Files\kernel\graphics\halftone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType16Dictionary.h">
+      <Filter>Header Files\kernel\graphics\halftone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\Object.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectArray.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectASCIIString.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectBoolean.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectByteString.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectDate.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectDictionary.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectFileSpecification.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectFunctionType0.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectFunctionType2.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectFunctionType3.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectFunctionType4.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectIndirectReference.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectInteger.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectName.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectNameTree.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectNull.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectNumber.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectNumberTree.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectPDFDocEncodedString.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectRectangle.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectStream.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectUTF16BEString.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\Indirectable.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\ResourceUid.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\Serializable.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\FontEncodingDictionary.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\color\ColorICCStream.h">
+      <Filter>Header Files\kernel\graphics\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\SoftMaskDictionary.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\GraphicsStateParameterDictionary.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\Table.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\FontTrueType.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableLoca.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableGlyf.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableHead.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableHhea.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableMaxp.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableOS2.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TablePost.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableHmtx.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableName.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableCmap.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\Cmap.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat0.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat2.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat4.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\SimpleGlyph.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\Glyph.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\CompoundGlyph.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\Singletone.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableDttf.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat6.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\FontTrueTypeDictionary.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\FontFileStream.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\UserObjectManager.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\ResourceManager.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\ToUnicodeCMapStream.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentMetadataStream.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\filter\Filter.h">
+      <Filter>Header Files\kernel\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\filter\FilterAscii85.h">
+      <Filter>Header Files\kernel\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\filter\FilterAsciiHex.h">
+      <Filter>Header Files\kernel\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\filter\FilterDeflate.h">
+      <Filter>Header Files\kernel\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\AdobeGlyphList.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\MacintoshGlyphList.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\ToUnicode.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\ImageDictionary.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\AlternateImageDictionary.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\image\ImageEncoder.h">
+      <Filter>Header Files\kernel\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\image\ImageJpegEncoder.h">
+      <Filter>Header Files\kernel\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\image\ImageTiffEncoder.h">
+      <Filter>Header Files\kernel\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\CCITTFaxDecodeDictionary.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\color\ColorSpaceCIEBased.h">
+      <Filter>Header Files\kernel\graphics\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\color\ColorSpaceDevice.h">
+      <Filter>Header Files\kernel\graphics\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\AnnotationBorderEffectDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\AnnotationBorderStyleDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\AnnotationDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\AppearanceDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\CircleAnnotationDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\FreeTextAnnotationDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\LineAnnotationDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\LinkAnnotationDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\SquareAnnotationDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\TextAnnotationDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormFieldDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormButtonDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormTextDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormChoiceDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureLockDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureSVDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureSVCertDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureSVMDPDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureSVTimeStampDictionary.h">
+      <Filter>Header Files\kernel\interactive\acroform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\WidgetAnnotationDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\annotation\WidgetAnnotationMKDictionary.h">
+      <Filter>Header Files\kernel\interactive\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\ActionDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\AnnotationTriggerDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\PageTriggerDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\AcroFormFieldTriggerDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\DocumentCatalogTriggerDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\SubmitFormActionDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\ResetFormActionDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\ImportDataActionDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\JavaScriptActionDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\EmbeddedFileStream.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\MacOSFileInformationDictionary.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\interactive\action\GoToActionDictionary.h">
+      <Filter>Header Files\kernel\interactive\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FormXObject.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\controls\Control.h">
+      <Filter>Header Files\include\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\controls\PushButton.h">
+      <Filter>Header Files\include\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\UTF16BEString.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\object\ObjectUTF16BETextString.h">
+      <Filter>Header Files\kernel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\actions\Action.h">
+      <Filter>Header Files\include\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\actions\UriAction.h">
+      <Filter>Header Files\include\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\annotations\Annotation.h">
+      <Filter>Header Files\include\annotations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\annotations\TextAnnotation.h">
+      <Filter>Header Files\include\annotations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Destination.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\annotations\LinkAnnotation.h">
+      <Filter>Header Files\include\annotations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\annotations\MarkupAnnotation.h">
+      <Filter>Header Files\include\annotations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\EncryptionDictionary.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\StandardEncryptionDictionary.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\PublicKeyEncryptionDictionary.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\SecurityHandler.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\StandardSecurityHandler.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\PdfDocEncoding.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\filter\FilterAes.h">
+      <Filter>Header Files\kernel\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\filter\FilterRc4.h">
+      <Filter>Header Files\kernel\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\Encoder.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\EncoderAes2.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\EncoderAes3.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\EncoderRc4.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\CryptFilterDictionary.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\encryption\CryptFilter.h">
+      <Filter>Header Files\kernel\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\FontTrueTypeCollection.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\image\InlineImageStream.h">
+      <Filter>Header Files\kernel\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\image\ImageIndexedEncoder.h">
+      <Filter>Header Files\kernel\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\color\ColorspaceIndexed.h">
+      <Filter>Header Files\kernel\graphics\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\xobject\GroupXObjectDictionary.h">
+      <Filter>Header Files\kernel\xobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\xobject\TransparencyGroupDictionary.h">
+      <Filter>Header Files\kernel\xobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\xobject\FormXObjectStream.h">
+      <Filter>Header Files\kernel\xobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\xobject\FormXObjectType1Stream.h">
+      <Filter>Header Files\kernel\xobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\image\SoftMaskImage.h">
+      <Filter>Header Files\kernel\graphics\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\ExtGraphicsState.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\GraphicsState.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\Operators.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\graphics\TextState.h">
+      <Filter>Header Files\kernel\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CMapName.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\ToString.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\UString.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\TransformationMatrix.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Types.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Color.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\ContentStream.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ContentStreamImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Encoding.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\ColorSpace.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ColorSpaceImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Encryption.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\ExtGState.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ExtGStateImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Document.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DocumentImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImageImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Image.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Function.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FunctionImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HalftoneImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Halftone.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PageImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Page.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\PaperSize.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FontImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Font.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\FontCollection.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FontCollectionImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\stream\InputStream.h">
+      <Filter>Header Files\api\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\stream\MemoryIOStream.h">
+      <Filter>Header Files\api\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\stream\MemoryIStream.h">
+      <Filter>Header Files\api\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\stream\MemoryOStream.h">
+      <Filter>Header Files\api\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\stream\OutputStream.h">
+      <Filter>Header Files\api\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\stream\SimpleInputFileStream.h">
+      <Filter>Header Files\api\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\stream\SimpleOutputFileStream.h">
+      <Filter>Header Files\api\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AcroFormImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\AcroForm.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PageTreeImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\OutlineImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\OutlineItemImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Tools.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\InternalTools.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\PdfOutConfig.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\Exception.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat12.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CID\FontCIDType2.h">
+      <Filter>Header Files\kernel\font\CID</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CID\FontCIDType0.h">
+      <Filter>Header Files\kernel\font\CID</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\UserObjectHash.h">
+      <Filter>Header Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableKern.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\SimpleFont.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CompositeFont.h">
+      <Filter>Header Files\kernel\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\XMPDocument.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\XMPDocumentImpl.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\DateTime.h">
+      <Filter>Header Files\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\TrueType\TableCff.h">
+      <Filter>Header Files\kernel\font\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CFF\FontCFF.h">
+      <Filter>Header Files\kernel\font\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CFF\Operator.h">
+      <Filter>Header Files\kernel\font\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CFF\Operand.h">
+      <Filter>Header Files\kernel\font\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CFF\StandardSID.h">
+      <Filter>Header Files\kernel\font\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CFF\CffDictionary.h">
+      <Filter>Header Files\kernel\font\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CFF\CffIndex.h">
+      <Filter>Header Files\kernel\font\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\font\CFF\TopDictionary.h">
+      <Filter>Header Files\kernel\font\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\document\DocumentMarkInformationDictionary.h">
+      <Filter>Header Files\kernel\document</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\unicode\BidiBrackets.h">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\unicode\UBA.h">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\unicode\UBA63.h">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\unicode\UBAContext.h">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\unicode\UBAStack.h">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\unicode\UnicodeData.h">
+      <Filter>Source Files\source\unicode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

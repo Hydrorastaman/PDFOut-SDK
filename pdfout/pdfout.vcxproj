@@ -1,0 +1,1331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_debug_140_xp|Win32">
+      <Configuration>lib_debug_140_xp</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_debug_140_xp|x64">
+      <Configuration>lib_debug_140_xp</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_debug_v120_xp_md|Win32">
+      <Configuration>lib_debug_v120_xp_md</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_debug_v120_xp_md|x64">
+      <Configuration>lib_debug_v120_xp_md</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_debug|Win32">
+      <Configuration>lib_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_debug|x64">
+      <Configuration>lib_debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release_static|Win32">
+      <Configuration>lib_release_static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release_static|x64">
+      <Configuration>lib_release_static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release_v120_xp_md|Win32">
+      <Configuration>lib_release_v120_xp_md</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release_v120_xp_md|x64">
+      <Configuration>lib_release_v120_xp_md</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release_v120_xp|Win32">
+      <Configuration>lib_release_v120_xp</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release_v120_xp|x64">
+      <Configuration>lib_release_v120_xp</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release_v140_xp|Win32">
+      <Configuration>lib_release_v140_xp</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release_v140_xp|x64">
+      <Configuration>lib_release_v140_xp</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release|Win32">
+      <Configuration>lib_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="lib_release|x64">
+      <Configuration>lib_release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04D0E31D-62E1-47A3-8ECF-A369C47A3722}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>pdfout</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_v120_xp_md|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_140_xp|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_v120_xp_md|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_140_xp|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp_md|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v140_xp|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_static|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp_md|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v140_xp|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_v120_xp_md|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_140_xp|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_v120_xp_md|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_140_xp|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp_md|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v140_xp|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp_md|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v140_xp|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_v120_xp_md|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)_$(PlatformToolset)_MDd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)d</TargetName>
+    <OutDir>$(ProjectDir)..\bin\dll\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_140_xp|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_$(PlatformToolset)d</TargetName>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_v120_xp_md|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(PlatformToolset)_MDd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)d</TargetName>
+    <OutDir>$(ProjectDir)..\bin\dll\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_140_xp|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_$(PlatformToolset)d</TargetName>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\dll\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_static|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(PlatformToolset)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp_md|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(PlatformToolset)_MD</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v140_xp|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(PlatformToolset)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>$(ProjectDir)..\bin\dll\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_static|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_$(PlatformToolset)</TargetName>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp_md|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_$(PlatformToolset)_MD</TargetName>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v140_xp|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_$(PlatformToolset)</TargetName>
+    <OutDir>$(ProjectDir)..\bin\static\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)d.lib;CxImage_$(PlatformToolset)d.lib;libiconv_$(PlatformToolset)d.lib;jpeg_$(PlatformToolset).dlib;png_$(PlatformToolset)d.lib;zlib_$(PlatformToolset)d.lib;tiff_$(PlatformToolset).dlib;Gdi32.lib;User32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_v120_xp_md|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)_MDd.lib;CxImage_$(PlatformToolset)_MDd.lib;libiconv_$(PlatformToolset)_MDd.lib;jpeg_$(PlatformToolset)_MDd.lib;png_$(PlatformToolset)_MDd.lib;zlib_$(PlatformToolset)_MDd.lib;tiff_$(PlatformToolset)_MDd.lib;Gdi32.lib;User32.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>libiconv_$(PlatformToolset)_MDd.lib;libidn_$(PlatformToolset)_MDd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>PDFOUT_API_EXPORTS;WIN32; _CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\api;$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconvd.lib;cryptlibd.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)d.lib;CxImage_$(PlatformToolset)d.lib;libiconv_$(PlatformToolset)d.lib;jpeg_$(PlatformToolset)d.lib;png_$(PlatformToolset)d.lib;zlib_$(PlatformToolset)d.lib;tiff_$(PlatformToolset)d.lib;gtest_$(PlatformToolset)d.lib;libidn_$(PlatformToolset)d.lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_140_xp|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG; _CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconvd.lib;cryptlibd.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)d.lib;CxImage_$(PlatformToolset)d.lib;libiconv_$(PlatformToolset)d.lib;jpeg_$(PlatformToolset)d.lib;png_$(PlatformToolset)d.lib;zlib_$(PlatformToolset)d.lib;tiff_$(PlatformToolset)d.lib;libidn_$(PlatformToolset)d.lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)d.lib;CxImage_$(PlatformToolset)d.lib;libiconv_$(PlatformToolset)d.lib;jpeg_$(PlatformToolset)d.lib;png_$(PlatformToolset)d.lib;zlib_$(PlatformToolset)d.lib;tiff_$(PlatformToolset)d.lib;gtest_$(PlatformToolset)d.lib;libidn_$(PlatformToolset)d.lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_v120_xp_md|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)_MDd.lib;CxImage_$(PlatformToolset)_MDd.lib;libiconv_$(PlatformToolset)_MDd.lib;jpeg_$(PlatformToolset)_MDd.lib;png_$(PlatformToolset)_MDd.lib;zlib_$(PlatformToolset)_MDd.lib;tiff_$(PlatformToolset)_MDd.lib;Gdi32.lib;User32.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>libiconv_$(PlatformToolset)_MDd.lib;libidn_$(PlatformToolset)_MDd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>PDFOUT_API_EXPORTS;WIN32; _CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\api;$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)d.lib;CxImage_$(PlatformToolset)d.lib;libiconv_$(PlatformToolset)d.lib;jpeg_$(PlatformToolset)d.lib;png_$(PlatformToolset)d.lib;zlib_$(PlatformToolset)d.lib;tiff_$(PlatformToolset)d.lib;gtest_$(PlatformToolset)d.lib;libidn_$(PlatformToolset)d.lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)d.lib;CxImage_$(PlatformToolset)d.lib;libiconv_$(PlatformToolset)d.lib;jpeg_$(PlatformToolset)d.lib;png_$(PlatformToolset)d.lib;zlib_$(PlatformToolset)d.lib;tiff_$(PlatformToolset)d.lib;gtest_$(PlatformToolset)d.lib;libidn_$(PlatformToolset)d.lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_debug_140_xp|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconvd.lib;cryptlibd.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset)d.lib;CxImage_$(PlatformToolset)d.lib;libiconv_$(PlatformToolset)d.lib;jpeg_$(PlatformToolset)d.lib;png_$(PlatformToolset)d.lib;zlib_$(PlatformToolset)d.lib;tiff_$(PlatformToolset)d.lib;libidn_$(PlatformToolset)d.lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libiconv.lib;cryptlib.lib;CxImage.lib;jpeg.lib;png.lib;tiff.lib;zlib.lib;Gdi32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>PDFOUT_API_EXPORTS;WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\api;$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;gtest_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_static|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>PDFOUT_API_STATIC;WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\api;$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconv.lib;cryptlib.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;gtest_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp_md|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconv.lib;cryptlib.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libiconv_$(PlatformToolset)_MD.lib;libidn_$(PlatformToolset)_MD.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v140_xp|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconv.lib;cryptlib.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;Gdi32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>PDFOUT_API_EXPORTS;WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\api;$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;gtest_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_static|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>PDFOUT_API_STATIC;WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\api;$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconv.lib;cryptlib.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;gtest_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v120_xp_md|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconv.lib;cryptlib.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libiconv_$(PlatformToolset)_MD.lib;libidn_$(PlatformToolset)_MD.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='lib_release_v140_xp|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; _CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\kernel\include;$(ProjectDir)..\external\libiconv-1.14\include;$(ProjectDir)..\external\cryptopp563;$(ProjectDir)..\external\cximage702_full\CxImage\;$(ProjectDir)..\external\libidn-1.33\lib;$(ProjectDir)..\external\libidn-1.33\windows\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Gdi32.lib;libiconv.lib;cryptlib.lib</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\external\bin\static\$(PlatformName)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cryptlib_$(PlatformToolset).lib;CxImage_$(PlatformToolset).lib;libiconv_$(PlatformToolset).lib;jpeg_$(PlatformToolset).lib;png_$(PlatformToolset).lib;zlib_$(PlatformToolset).lib;tiff_$(PlatformToolset).lib;libidn_$(PlatformToolset).lib;gdi32.lib;user32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\kernel\include\object\ObjectUTF16BETextString.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentCatalogDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentCrossReferenceTable.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentFileTrailer.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentHeader.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentInformationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentMarkInformationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentMetadataStream.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentNameDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentOutlineDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentOutlineItemDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentPage.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentPages.cpp" />
+    <ClCompile Include="..\kernel\source\document\DocumentResourceDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\EncodingToString.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\CryptFilter.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\CryptFilterDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\Encoder.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\EncoderAes2.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\EncoderAes3.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\EncoderRc4.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\EncryptionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\SecurityHandler.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\PublicKeyEncryptionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\StandardEncryptionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\encryption\StandardSecurityHandler.cpp" />
+    <ClCompile Include="..\kernel\source\filter\FilterAes.cpp" />
+    <ClCompile Include="..\kernel\source\filter\FilterBase.cpp" />
+    <ClCompile Include="..\kernel\source\filter\FilterAscii85.cpp" />
+    <ClCompile Include="..\kernel\source\filter\FilterAsciiHex.cpp" />
+    <ClCompile Include="..\kernel\source\filter\FilterDeflate.cpp" />
+    <ClCompile Include="..\kernel\source\filter\FilterRc4.cpp" />
+    <ClCompile Include="..\kernel\source\font\AdobeGlyphList.cpp" />
+    <ClCompile Include="..\kernel\source\font\CFF\CffDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\CFF\FontCFF.cpp" />
+    <ClCompile Include="..\kernel\source\font\CFF\CffIndex.cpp" />
+    <ClCompile Include="..\kernel\source\font\CFF\Operator.cpp" />
+    <ClCompile Include="..\kernel\source\font\CFF\StandardSID.cpp" />
+    <ClCompile Include="..\kernel\source\font\CFF\TopDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\CIDSystemInfoDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\CID\FontCIDType0.cpp" />
+    <ClCompile Include="..\kernel\source\font\CID\FontCIDType2.cpp" />
+    <ClCompile Include="..\kernel\source\font\CMapName.cpp" />
+    <ClCompile Include="..\kernel\source\font\CMapStream.cpp" />
+    <ClCompile Include="..\kernel\source\font\CompositeFont.cpp" />
+    <ClCompile Include="..\kernel\source\font\FontCIDDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\FontDescriptorDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\FontEncodingDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\FontFileStream.cpp" />
+    <ClCompile Include="..\kernel\source\font\FontTrueTypeDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\FontType0Dictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\FontType1Dictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\FontType3Dictionary.cpp" />
+    <ClCompile Include="..\kernel\source\font\MacintoshGlyphList.cpp" />
+    <ClCompile Include="..\kernel\source\font\SimpleFont.cpp" />
+    <ClCompile Include="..\kernel\source\font\ToUnicode.cpp" />
+    <ClCompile Include="..\kernel\source\font\ToUnicodeCMapStream.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\Cmap.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat12.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat2.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat4.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat6.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\CmapFormat0.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\CompoundGlyph.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\FontTrueType.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\FontTrueTypeCollection.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\Glyph.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\SimpleGlyph.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\Table.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableCff.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableCmap.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableDttf.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableGlyf.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableHead.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableHhea.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableHmtx.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableKern.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableLoca.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableMaxp.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableName.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TableOS2.cpp" />
+    <ClCompile Include="..\kernel\source\font\TrueType\TablePost.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\AlternateImageDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\CCITFaxDecodeDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\color\ColorICCStream.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\color\ColorSpaceCIEBased.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\color\ColorSpaceDevice.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\color\ColorSpaceIndexed.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\ExtGraphicsState.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\GraphicsState.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\GraphicsStateParameterDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType10Dictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType16Dictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType1Dictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType5Dictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\halftone\HalftoneType6Dictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\ImageDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\image\ImageEncoder.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\image\ImageIndexedEncoder.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\image\ImageJpegEncoder.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\image\ImageTiffEncoder.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\image\InlineImageStream.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\image\SoftMaskImage.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\Operators.cpp" />
+    <ClCompile Include="..\kernel\source\graphics\SoftMaskDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\Indirectable.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormButtonDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormChoiceDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormFieldDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureLockDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureSVCertDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureSVDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureSVMDPDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormSignatureSVTimeStampDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\acroform\AcroFormTextDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\AcroFormFieldTriggerDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\ActionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\AnnotationTriggerDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\DocumentCatalogTriggerDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\GoToActionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\ImportDataActionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\JavaScriptActionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\PageTriggerDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\ResetFormActionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\action\SubmitFormActionDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\AnnotationBorderEffectDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\AnnotationBorderStyleDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\AnnotationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\AppearanceDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\CircleAnnotationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\FreeTextAnnotationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\LineAnnotationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\LinkAnnotationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\SquareAnnotationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\TextAnnotationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\WidgetAnnotationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\interactive\annotation\WidgetAnnotationMKDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\InternalTools.cpp" />
+    <ClCompile Include="..\kernel\source\object\EmbeddedFileStream.cpp" />
+    <ClCompile Include="..\kernel\source\object\MacOSInformationDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\object\ObjectDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\object\ObjectFileSpecification.cpp" />
+    <ClCompile Include="..\kernel\source\object\ObjectFunctionType0.cpp" />
+    <ClCompile Include="..\kernel\source\object\ObjectFunctionType2.cpp" />
+    <ClCompile Include="..\kernel\source\object\ObjectFunctionType3.cpp" />
+    <ClCompile Include="..\kernel\source\object\ObjectFunctionType4.cpp" />
+    <ClCompile Include="..\kernel\source\object\ObjectStream.cpp" />
+    <ClCompile Include="..\kernel\source\object\ObjectUTF16BEString.cpp" />
+    <ClCompile Include="..\kernel\source\object\UTF16BEString.cpp" />
+    <ClCompile Include="..\kernel\source\ResourceManager.cpp" />
+    <ClCompile Include="..\kernel\source\ResourceUid.cpp" />
+    <ClCompile Include="..\kernel\source\Serializable.cpp" />
+    <ClCompile Include="..\kernel\source\ToString.cpp" />
+    <ClCompile Include="..\kernel\source\xobject\FormXObjectType1Stream.cpp" />
+    <ClCompile Include="..\kernel\source\xobject\FormXObjectStream.cpp" />
+    <ClCompile Include="..\kernel\source\xobject\GroupXObjectDictionary.cpp" />
+    <ClCompile Include="..\kernel\source\xobject\TransparencyGroupDictionary.cpp" />
+    <ClCompile Include="..\source\AcroFormImpl.cpp" />
+    <ClCompile Include="..\source\actions\Action.cpp" />
+    <ClCompile Include="..\source\actions\UriAction.cpp" />
+    <ClCompile Include="..\source\annotations\Annotation.cpp" />
+    <ClCompile Include="..\source\annotations\LinkAnnotation.cpp" />
+    <ClCompile Include="..\source\annotations\MarkupAnnotation.cpp" />
+    <ClCompile Include="..\source\annotations\TextAnnotation.cpp" />
+    <ClCompile Include="..\source\Color.cpp" />
+    <ClCompile Include="..\source\ColorSpace.cpp" />
+    <ClCompile Include="..\source\ColorSpaceImpl.cpp" />
+    <ClCompile Include="..\source\ContentStream.cpp" />
+    <ClCompile Include="..\source\ContentStreamImpl.cpp" />
+    <ClCompile Include="..\source\controls\Control.cpp" />
+    <ClCompile Include="..\source\controls\PushButton.cpp" />
+    <ClCompile Include="..\source\DateTime.cpp" />
+    <ClCompile Include="..\source\Destination.cpp" />
+    <ClCompile Include="..\source\Document.cpp" />
+    <ClCompile Include="..\source\DocumentImpl.cpp" />
+    <ClCompile Include="..\source\Encoding.cpp" />
+    <ClCompile Include="..\source\ExtGState.cpp" />
+    <ClCompile Include="..\source\ExtGStateImpl.cpp" />
+    <ClCompile Include="..\source\Font.cpp" />
+    <ClCompile Include="..\source\FontCollectionImpl.cpp" />
+    <ClCompile Include="..\source\FontImpl.cpp" />
+    <ClCompile Include="..\source\FormXObject.cpp" />
+    <ClCompile Include="..\source\Function.cpp" />
+    <ClCompile Include="..\source\FunctionImpl.cpp" />
+    <ClCompile Include="..\source\Halftone.cpp" />
+    <ClCompile Include="..\source\HalftoneImpl.cpp" />
+    <ClCompile Include="..\source\Image.cpp" />
+    <ClCompile Include="..\source\ImageImpl.cpp" />
+    <ClCompile Include="..\source\Index.cpp" />
+    <ClCompile Include="..\source\OutlineImpl.cpp" />
+    <ClCompile Include="..\source\PageImpl.cpp" />
+    <ClCompile Include="..\source\PageTreeImpl.cpp" />
+    <ClCompile Include="..\source\PaperSize.cpp" />
+    <ClCompile Include="..\source\Tools.cpp" />
+    <ClCompile Include="..\source\TransformationMatrix.cpp" />
+    <ClCompile Include="..\source\unicode\UBA63_ExplicitEmbeddingLevels.cpp" />
+    <ClCompile Include="..\source\unicode\UBA63_IdentifyIsolatingRunSequences.cpp" />
+    <ClCompile Include="..\source\unicode\UBA63_ParagraphEmbeddingLevel.cpp" />
+    <ClCompile Include="..\source\unicode\UnicodeData.cpp" />
+    <ClCompile Include="..\source\UString.cpp" />
+    <ClCompile Include="..\source\XMPDocument.cpp" />
+    <ClCompile Include="..\source\XMPDocumentImpl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\api\AcroForm.h" />
+    <ClInclude Include="..\api\Color.h" />
+    <ClInclude Include="..\api\ColorSpace.h" />
+    <ClInclude Include="..\api\DateTime.h" />
+    <ClInclude Include="..\api\Exception.h" />
+    <ClInclude Include="..\api\PdfOutConfig.h" />
+    <ClInclude Include="..\api\ContentStream.h" />
+    <ClInclude Include="..\api\Document.h" />
+    <ClInclude Include="..\api\Encoding.h" />
+    <ClInclude Include="..\api\Encryption.h" />
+    <ClInclude Include="..\api\ExtGState.h" />
+    <ClInclude Include="..\api\Font.h" />
+    <ClInclude Include="..\api\FontCollection.h" />
+    <ClInclude Include="..\api\Function.h" />
+    <ClInclude Include="..\api\Halftone.h" />
+    <ClInclude Include="..\api\Image.h" />
+    <ClInclude Include="..\api\Page.h" />
+    <ClInclude Include="..\api\PaperSize.h" />
+    <ClInclude Include="..\api\stream\InputStream.h" />
+    <ClInclude Include="..\api\stream\MemoryIOStream.h" />
+    <ClInclude Include="..\api\stream\MemoryIStream.h" />
+    <ClInclude Include="..\api\stream\MemoryOStream.h" />
+    <ClInclude Include="..\api\stream\OutputStream.h" />
+    <ClInclude Include="..\api\stream\SimpleInputFileStream.h" />
+    <ClInclude Include="..\api\stream\SimpleOutputFileStream.h" />
+    <ClInclude Include="..\api\Tools.h" />
+    <ClInclude Include="..\api\TransformationMatrix.h" />
+    <ClInclude Include="..\api\Types.h" />
+    <ClInclude Include="..\api\UString.h" />
+    <ClInclude Include="..\api\XMPDocument.h" />
+    <ClInclude Include="..\include\AcroFormImpl.h" />
+    <ClInclude Include="..\include\actions\Action.h" />
+    <ClInclude Include="..\include\actions\UriAction.h" />
+    <ClInclude Include="..\include\annotations\Annotation.h" />
+    <ClInclude Include="..\include\annotations\LinkAnnotation.h" />
+    <ClInclude Include="..\include\annotations\MarkupAnnotation.h" />
+    <ClInclude Include="..\include\annotations\TextAnnotation.h" />
+    <ClInclude Include="..\include\ColorSpaceImpl.h" />
+    <ClInclude Include="..\include\ContentStreamImpl.h" />
+    <ClInclude Include="..\include\controls\Control.h" />
+    <ClInclude Include="..\include\controls\PushButton.h" />
+    <ClInclude Include="..\include\Destination.h" />
+    <ClInclude Include="..\include\DocumentImpl.h" />
+    <ClInclude Include="..\include\ExtGStateImpl.h" />
+    <ClInclude Include="..\include\FontCollectionImpl.h" />
+    <ClInclude Include="..\include\FontImpl.h" />
+    <ClInclude Include="..\include\FormXObject.h" />
+    <ClInclude Include="..\include\FunctionImpl.h" />
+    <ClInclude Include="..\include\HalftoneImpl.h" />
+    <ClInclude Include="..\include\ImageImpl.h" />
+    <ClInclude Include="..\include\OutlineImpl.h" />
+    <ClInclude Include="..\include\OutlineItemImpl.h" />
+    <ClInclude Include="..\include\PageImpl.h" />
+    <ClInclude Include="..\include\PageTreeImpl.h" />
+    <ClInclude Include="..\include\XMPDocumentImpl.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentCatalogDictionary.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentCrossReferenceTable.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentFileTrailer.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentHeader.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentInformationDictionary.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentMarkInformationDictionary.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentMetadataStream.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentNameDictionary.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentOutlineDictionary.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentPage.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentPages.h" />
+    <ClInclude Include="..\kernel\include\document\DocumentResourceDictionary.h" />
+    <ClInclude Include="..\kernel\include\encryption\CryptFilter.h" />
+    <ClInclude Include="..\kernel\include\encryption\CryptFilterDictionary.h" />
+    <ClInclude Include="..\kernel\include\encryption\Encoder.h" />
+    <ClInclude Include="..\kernel\include\encryption\EncoderAes2.h" />
+    <ClInclude Include="..\kernel\include\encryption\EncoderAes3.h" />
+    <ClInclude Include="..\kernel\include\encryption\EncoderRc4.h" />
+    <ClInclude Include="..\kernel\include\encryption\EncryptionDictionary.h" />
+    <ClInclude Include="..\kernel\include\encryption\SecurityHandler.h" />
+    <ClInclude Include="..\kernel\include\encryption\PublicKeyEncryptionDictionary.h" />
+    <ClInclude Include="..\kernel\include\encryption\StandardEncryptionDictionary.h" />
+    <ClInclude Include="..\kernel\include\encryption\StandardSecurityHandler.h" />
+    <ClInclude Include="..\kernel\include\filter\Filter.h" />
+    <ClInclude Include="..\kernel\include\filter\FilterAes.h" />
+    <ClInclude Include="..\kernel\include\filter\FilterAscii85.h" />
+    <ClInclude Include="..\kernel\include\filter\FilterAsciiHex.h" />
+    <ClInclude Include="..\kernel\include\filter\FilterDeflate.h" />
+    <ClInclude Include="..\kernel\include\filter\FilterRc4.h" />
+    <ClInclude Include="..\kernel\include\font\AdobeGlyphList.h" />
+    <ClInclude Include="..\kernel\include\font\CFF\CffDictionary.h" />
+    <ClInclude Include="..\kernel\include\font\CFF\FontCFF.h" />
+    <ClInclude Include="..\kernel\include\font\CFF\CffIndex.h" />
+    <ClInclude Include="..\kernel\include\font\CFF\Operand.h" />
+    <ClInclude Include="..\kernel\include\font\CFF\Operator.h" />
+    <ClInclude Include="..\kernel\include\font\CFF\StandardSID.h" />
+    <ClInclude Include="..\kernel\include\font\CFF\TopDictionary.h" />
+    <ClInclude Include="..\kernel\include\font\CIDSystemInfoDictionary.h" />
+    <ClInclude Include="..\kernel\include\font\CID\FontCIDType0.h" />
+    <ClInclude Include="..\kernel\include\font\CID\FontCIDType2.h" />
+    <ClInclude Include="..\kernel\include\font\CMapName.h" />
+    <ClInclude Include="..\kernel\include\font\CMapStream.h" />
+    <ClInclude Include="..\kernel\include\font\CompositeFont.h" />
+    <ClInclude Include="..\kernel\include\font\FontCIDDictionary.h" />
+    <ClInclude Include="..\kernel\include\font\FontDescriptorDictionary.h" />
+    <ClInclude Include="..\kernel\include\font\FontEncodingDictionary.h" />
+    <ClInclude Include="..\kernel\include\font\FontFileStream.h" />
+    <ClInclude Include="..\kernel\include\font\FontTrueTypeDictionary.h" />
+    <ClInclude Include="..\kernel\include\font\FontType0Dictionary.h" />
+    <ClInclude Include="..\kernel\include\font\FontType1Dictionary.h" />
+    <ClInclude Include="..\kernel\include\font\FontType3Dictionary.h" />
+    <ClInclude Include="..\kernel\include\font\MacintoshGlyphList.h" />
+    <ClInclude Include="..\kernel\include\font\PdfDocEncoding.h" />
+    <ClInclude Include="..\kernel\include\font\SimpleFont.h" />
+    <ClInclude Include="..\kernel\include\font\ToUnicode.h" />
+    <ClInclude Include="..\kernel\include\font\ToUnicodeCMapStream.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\Cmap.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat12.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat6.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat0.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat2.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\CmapFormat4.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\CompoundGlyph.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\FontTrueType.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\FontTrueTypeCollection.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\Glyph.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\SimpleGlyph.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\Table.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableCff.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableCmap.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableDttf.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableGlyf.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableHead.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableHhea.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableHmtx.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableKern.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableLoca.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableMaxp.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableName.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TableOS2.h" />
+    <ClInclude Include="..\kernel\include\font\TrueType\TablePost.h" />
+    <ClInclude Include="..\kernel\include\graphics\AlternateImageDictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\CCITTFaxDecodeDictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\color\ColorICCStream.h" />
+    <ClInclude Include="..\kernel\include\graphics\color\ColorSpaceCIEBased.h" />
+    <ClInclude Include="..\kernel\include\graphics\color\ColorSpaceDevice.h" />
+    <ClInclude Include="..\kernel\include\graphics\color\ColorspaceIndexed.h" />
+    <ClInclude Include="..\kernel\include\graphics\ExtGraphicsState.h" />
+    <ClInclude Include="..\kernel\include\graphics\GraphicsState.h" />
+    <ClInclude Include="..\kernel\include\graphics\GraphicsStateParameterDictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType10Dictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType16Dictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType1Dictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType5Dictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\halftone\HalftoneType6Dictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\ImageDictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\image\ImageEncoder.h" />
+    <ClInclude Include="..\kernel\include\graphics\image\ImageIndexedEncoder.h" />
+    <ClInclude Include="..\kernel\include\graphics\image\ImageJpegEncoder.h" />
+    <ClInclude Include="..\kernel\include\graphics\image\ImageTiffEncoder.h" />
+    <ClInclude Include="..\kernel\include\graphics\image\InlineImageStream.h" />
+    <ClInclude Include="..\kernel\include\graphics\image\SoftMaskImage.h" />
+    <ClInclude Include="..\kernel\include\graphics\Operators.h" />
+    <ClInclude Include="..\kernel\include\graphics\SoftMaskDictionary.h" />
+    <ClInclude Include="..\kernel\include\graphics\TextState.h" />
+    <ClInclude Include="..\kernel\include\Indirectable.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormButtonDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormChoiceDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormFieldDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureLockDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureSVCertDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureSVDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureSVMDPDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormSignatureSVTimeStampDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\acroform\AcroFormTextDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\AcroFormFieldTriggerDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\ActionDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\AnnotationTriggerDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\DocumentCatalogTriggerDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\GoToActionDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\ImportDataActionDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\JavaScriptActionDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\PageTriggerDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\ResetFormActionDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\action\SubmitFormActionDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\AnnotationBorderEffectDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\AnnotationBorderStyleDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\AnnotationDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\AppearanceDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\CircleAnnotationDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\FreeTextAnnotationDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\LineAnnotationDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\LinkAnnotationDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\SquareAnnotationDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\TextAnnotationDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\WidgetAnnotationDictionary.h" />
+    <ClInclude Include="..\kernel\include\interactive\annotation\WidgetAnnotationMKDictionary.h" />
+    <ClInclude Include="..\kernel\include\InternalTools.h" />
+    <ClInclude Include="..\kernel\include\object\EmbeddedFileStream.h" />
+    <ClInclude Include="..\kernel\include\object\MacOSFileInformationDictionary.h" />
+    <ClInclude Include="..\kernel\include\object\Object.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectArray.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectASCIIString.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectBoolean.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectByteString.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectDate.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectDictionary.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectFileSpecification.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectFunctionType0.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectFunctionType2.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectFunctionType3.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectFunctionType4.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectIndirectReference.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectInteger.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectName.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectNameTree.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectNull.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectNumber.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectNumberTree.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectPDFDocEncodedString.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectRectangle.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectStream.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectUTF16BEString.h" />
+    <ClInclude Include="..\kernel\include\object\ObjectUTF16BETextString.h" />
+    <ClInclude Include="..\kernel\include\object\UTF16BEString.h" />
+    <ClInclude Include="..\kernel\include\ResourceManager.h" />
+    <ClInclude Include="..\kernel\include\ToString.h" />
+    <ClInclude Include="..\kernel\include\UserObjectHash.h" />
+    <ClInclude Include="..\kernel\include\UserObjectManager.h" />
+    <ClInclude Include="..\kernel\include\ResourceUid.h" />
+    <ClInclude Include="..\kernel\include\Serializable.h" />
+    <ClInclude Include="..\kernel\include\Singletone.h" />
+    <ClInclude Include="..\kernel\include\xobject\FormXObjectType1Stream.h" />
+    <ClInclude Include="..\kernel\include\xobject\FormXObjectStream.h" />
+    <ClInclude Include="..\kernel\include\xobject\GroupXObjectDictionary.h" />
+    <ClInclude Include="..\kernel\include\xobject\TransparencyGroupDictionary.h" />
+    <ClInclude Include="..\source\unicode\BidiBrackets.h" />
+    <ClInclude Include="..\source\unicode\UBA.h" />
+    <ClInclude Include="..\source\unicode\UBA63.h" />
+    <ClInclude Include="..\source\unicode\UBAContext.h" />
+    <ClInclude Include="..\source\unicode\UBAStack.h" />
+    <ClInclude Include="..\source\unicode\UnicodeData.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
