@@ -5,10 +5,6 @@
 AppId={{FF563549-0482-4EA0-B681-EC113E090AD2}}
 AppName=PdfOut SDK
 AppVerName=PdfOut SDK {#Version}
-;AppPublisher=PdfOut
-;AppPublisherURL=https://www.pdfout.com
-;AppSupportURL=https://www.pdfout.com
-;AppUpdatesURL=https://www.pdfout.com
 DefaultDirName={code:GetProgramFiles}\PdfOut SDK
 DefaultGroupName=PdfOut SDK
 OutputDir=installer
